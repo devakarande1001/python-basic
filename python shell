@@ -1,0 +1,28 @@
+# shell
+>>> # it is used for scripting purpose
+>>> # its used to satisfy temp. requirments
+>>> print('hello')
+hello
+>>> a = 20
+>>> a
+20
+>>> a
+20
+>>> s = 'python'
+>>> s
+'python'
+
+>>> # Drawback: here we can not do functional programming
+>>> for i in range(5):# 0 to 4
+	print(i)
+
+	
+0
+1
+2
+3
+4
+>>> for i in range(5):# 0 to 4
+	print(i)
+print('outside the for loop')
+SyntaxError: invalid syntax
